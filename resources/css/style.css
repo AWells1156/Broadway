@@ -3,12 +3,19 @@ body {
   text-align: center;
 }
 
+header {
+color: white;
+background-image:
+  url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+}
 h1 {
   font-size: 70px;
   font-weight: bold;
-  color: white;
-  background-image:
-  url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+}
+
+ul {
+  list-style-type: none;
+  font-size: 18px;
 }
 
 h2 {
@@ -29,4 +36,14 @@ h3 {
 
 p {
   font-size: 14px;
+}
+
+footer{
+  text-align: left;
+  color: white;
+  background-color: dimgray;
+}
+
+.bottom-nav a{
+  color: white;
 }
